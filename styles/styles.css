@@ -193,3 +193,19 @@ p {
   width: 60%;
 }
 
+/** Footer **/
+
+.footer {
+  background-color: var(--color-primary-lighten);
+}
+.footer__link {
+  list-style: none;
+  margin: 1rem 1rem;
+}
+
+.footer__link > a {
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--color-text-content);
+}
