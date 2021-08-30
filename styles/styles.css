@@ -92,3 +92,22 @@ p {
   outline: none;
   padding: 1.5rem 3.5rem;
 }
+
+/** Input Group **/
+.input-group {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+  margin: 4px;
+}
+
+/** Flexbox **/
