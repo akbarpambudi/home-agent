@@ -111,3 +111,30 @@ p {
 }
 
 /** Flexbox **/
+.d-flex {
+  display: flex;
+}
+.d-flex--h {
+  flex-direction: row;
+}
+
+.d-flex--v {
+  flex-direction: column;
+}
+
+.d-flex--ma-center {
+  justify-content: center;
+}
+
+.d-flex--ca-center {
+  align-items: center;
+}
+
+.d-flex--ma-space-between {
+  justify-content: space-between;
+}
+
+.d-flex--ca-space-between {
+  justify-content: space-between;
+}
+
