@@ -82,3 +82,13 @@ p {
   color: #fff;
 }
 
+/** Input **/
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin: 0.5rem;
+  outline: none;
+  padding: 1.5rem 3.5rem;
+}
