@@ -193,6 +193,9 @@ p {
   width: 60%;
 }
 
+.search-block__sub-heading {
+  color: rgb(112, 111, 111);
+}
 /** Footer **/
 
 .footer {
