@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #000;
+  --color-primary-lighten: rgb(73, 72, 72);
+  --color-accent: rgb(252, 214, 0);
+  --color-accent-darker: rgb(207, 141, 0);
+  --color-text-headings: rgb(0, 3, 32);
+  --color-text-content: #eee;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/** Fonts **/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
