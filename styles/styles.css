@@ -144,3 +144,41 @@ p {
   width: 100vw;
 }
 
+/** Navbar **/
+.nav-bar {
+  padding: 0.5rem 5rem;
+  background-color: var(--color-primary);
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: var(--color-text-content);
+}
+
+.nav-bar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-bar__nav-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.nav-bar__nav-link::after {
+  content: " ";
+  display: block;
+  height: 0.5rem;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.nav-bar__nav-link:hover::after {
+  content: " ";
+  display: block;
+  background-color: var(--color-accent);
+  height: 0.5rem;
+}
