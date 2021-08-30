@@ -182,3 +182,14 @@ p {
   background-color: var(--color-accent);
   height: 0.5rem;
 }
+
+/** Search Block **/
+.search-block {
+  flex-grow: 1;
+}
+
+.search-block__search-box {
+  margin-top: 50px;
+  width: 60%;
+}
+
